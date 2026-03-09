@@ -4,7 +4,7 @@ import { sveltekit } from "@sveltejs/kit/vite"
 import { enhancedImages } from "@sveltejs/enhanced-img"
 
 const serverConfig: CommonServerOptions = {
-    https: true,
+    https: false,
     host: "localhost",
     port: 3000,
     strictPort: true,
